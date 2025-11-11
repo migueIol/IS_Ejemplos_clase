@@ -1,0 +1,65 @@
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    background-color: darksalmon;
+    
+}
+
+#nav li{
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+#nav li:hover{
+    background-color: dodgerblue;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+/* modelo de caja */
+.padre{
+    background-color: fuchsia;
+    padding: 20px;
+}
+.hijo{
+    background-color:deepskyblue;
+    padding: 100px;
+    border: 10px solid black;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:darkorchid;
+    gap: 1rem;
+}
+.boton1{
+    margin: 30px;
+}
+.boton2{
+    margin: 30px;
+}
+.card{
+    width: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+
+}
+.card img{
+    width: 100%;
+    border-radius: 8px;
+    
+}
+.card p{
+    color: #fff;
+    background-color: black;
+}
